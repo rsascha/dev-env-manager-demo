@@ -1,0 +1,16 @@
+{
+  "name": "dev-env-manager-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "upload-env-files": "npx dev-env-manager --upload",
+    "download-env-files": "npx dev-env-manager --download",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@rosesoft/dev-env-manager": "^0.1.15"
+  }
+}

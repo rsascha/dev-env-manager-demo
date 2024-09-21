@@ -1,0 +1,21 @@
+{
+  "environmentSettings": {
+    "kubeConfigPath": ".kube/config",
+    "context": "colima",
+    "namespace": "dev-namespace",
+    "secrets": [
+      {
+        "name": "dev-service-a",
+        "localPath": "projects/service-a/local.env"
+      },
+      {
+        "name": "dev-service-a-container",
+        "localPath": "projects/service-a/docker/container.env"
+      },
+      {
+        "name": "dev-service-b",
+        "localPath": "projects/service-b/.env"
+      }
+    ]
+  }
+}
